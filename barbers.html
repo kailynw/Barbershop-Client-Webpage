@@ -1,0 +1,163 @@
+<DOCTYPE html>
+	<html>
+	<head>
+		 <meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Home</title>
+		<link rel="stylesheet" media="screen and (max-width:530px)" href="css/mobileBarbers1.css"/>
+		<link rel ="stylesheet" media="screen and (min-width: 530px) and (max-width:1000px)" href="css/desktopBarbers1.css"/>
+		<link rel="stylesheet" media="screen and (min-width:1000px)" href="css/desktopBarbers2.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Donegal+One|Ewert" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+
+	</head>
+
+	<body>
+		<header>
+		<div class="header">
+		 <img src="css/Images/fades4change1.jpg"  id="header-pic"> <img  src="css/Images/hamburger.png" id="hamburger">
+		 <div class="nav-words">
+		 	<a id="nav-words-each" href="#">Home</a>
+		 	<a id="nav-words-each" href="#">The Barbers</a>
+		 	<a id="nav-words-each" href="#">Services</a>
+		 	<a id="nav-words-each" href="#">Booking</a>
+
+	  </div><br>
+
+
+<!--  Alternate Navagation Bar-->
+		<div >
+			<div id="home">Home</div>
+			<div id="theBarbers">The Barbers</div>
+			<div id="services">Services</div>
+			<div id="booking">Booking</div>
+			<div class="nav-list"></div>
+<!--^^^^^^^^^^^^^^^-->
+			</header>
+		
+		 <section  class="team">
+    <div class="container2">
+      <div class="row">
+        <h1 id="title">Our Team</h1>
+        <p id="summary">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+      </div>
+      <div class="row mgt50px">
+        <div class="column">
+          <div class="imgBox">
+            <img src="css/Images/barber9b.jpg">
+          </div>
+          <div class="details">
+            <h3>Matthew Johnson<br><span>Master Barber & Owner</span></h3>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+            <div class="imgBox">
+                <img src="css/Images/barber9a.jpg">
+              </div>
+              <div class="details">
+                <h3>Jacob Smith<br><span>Master Barber</span></h3>
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="column">
+            <div class="imgBox">
+                <img src="css/Images/barber9c.jpg">
+              </div>
+              <div class="details">
+                <h3>Victoria Gomez<br><span>Master Barber</span></h3>
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="column">
+            <div class="imgBox">
+                <img src="css/Images/barber9.jpg">
+              </div>
+              <div class="details">
+                <h3>Xavier Wright<br><span>Master Barber</span></h3>
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+
+  </section><br>
+
+
+			<footer>
+				<div class="footer">.</div>
+			</footer>
+
+			<div  class="social">
+					
+					<a href="https://www.facebook.com" target="_blank" >
+						<img src="css/Images/facebook.png" alt=""  hspace="2.5"id="icon"></img>
+					</a>
+					<a href="https://www.instagram.com" target="_blank">
+						<img src="css/Images/instagram.png" alt="" hspace="2.5"id="icon"></img>
+					</a>
+					<a href="https://www.twitter.com" target="_blank">
+						<img src="css/Images/twitter.png" alt="" hspace="2.5"id="icon"></img>
+					</a>
+					<a href="tel:8642791689" onclick="phoneClick()">
+						<img src="css/Images/phone.png" alt="" hspace="2.5"id="phone"></img>
+					</a>
+			</div>
+
+	<script type="text/javascript">
+		function phoneClick(){
+			alert("PLEASE DONT CALL ME lol\n P.S- Kailyn")
+		}
+
+		$("document").ready(function(){
+
+			$(".nav-list").hide();
+			$("#home").hide();
+			$("#theBarbers").hide();
+			$("#services").hide();
+			$("#booking").hide();
+
+			$("#hamburger").click(function(){
+				$(".nav-list").fadeToggle(300);
+				$("#home").fadeToggle(400);
+				$("#theBarbers").fadeToggle(500);
+				$("#services").fadeToggle(600);
+				$("#booking").fadeToggle(700);
+
+
+
+			});
+
+
+
+		});
+	</script>
+
+
+
+
+	</body>
+	</html>
